@@ -1,0 +1,128 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    height: 412px;
+    background-image: url(../img/services/headline\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    margin-bottom: 98px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: #DA0100;
+
+}
+.menu__links{
+    list-style: none;
+    display: flex;
+    width: 264px;
+    justify-content: space-between;
+    margin-left: 28px;
+    font-size: 14px;
+    line-height: 19px;
+}
+.header__menu{
+    align-items: center;
+    display: flex;
+    padding-top: 29px;
+    margin-bottom: 89px;
+}
+.top__menu-right {
+    max-width: 202px;
+    text-align: right;
+    padding-top: 7px;
+    margin-left: auto;
+}
+.header__menu-tel{
+    font-size: 26px;
+    line-height: 24px;
+}
+.header__menu-chart{
+    font-size: 13px;
+    line-height: 20px;
+}
+.logo{
+    width: 97px;
+    margin-top: -5px;
+}
+.header__title{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 104px;
+}
+.header__bread-crumbs{
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #9A9A9A;
+    font-weight: 700;
+}
+.header__bread-crumbs a{
+    text-decoration-line: underline;
+    color: #9A9A9A;  
+    font-weight: 400;
+}
+.services__list, .services__list a{
+    color: black;
+}
+.services__item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+.item__description{
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.description__title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+}
+.btn{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #f5170e;
+    padding: 17px 40px;
+    border-radius: 35px;
+    background-color: #fff;
+    border: 1px solid #f5170e;
+    max-width: 85px;
+}
+.btn:hover{
+    color: white;
+    background-color: #f5170e;
+}
+.description__text{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #303030;
+}
+.pages{
+    max-width: 400px;
+    max
+    margin: 0 auto;
+    display:flex;
+}
+.pages__list{
+    list-style: none;
+    display: flex;
+}
