@@ -2,6 +2,9 @@ body{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.wrapper ul{
+    list-style: none;
+}
 .header{
     height: 412px;
     background-image: url(../img/services/headline\ 1.png);
@@ -15,6 +18,7 @@ body{
 .container{
     max-width: 1140px;
     margin: auto;
+
 }
 a{
     text-decoration: none;
@@ -25,7 +29,6 @@ a{
 
 }
 .menu__links{
-    list-style: none;
     display: flex;
     width: 264px;
     justify-content: space-between;
@@ -116,13 +119,108 @@ a{
     line-height: 27px;
     color: #303030;
 }
-.pages{
-    max-width: 400px;
-    max
-    margin: 0 auto;
-    display:flex;
+
+.pages {
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    color: #000;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin: auto;
+    width: 500px;
+    padding-left: 37px;
 }
 .pages__list{
+    display: inline-flex;
+}
+.pages__number{
+    font-size: 16px;
+    line-height: 20px;
+}
+.page-list-number{
+    display: inline-flex;
+    align-content: center;
+}
+.pages-link{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    align-content: center;
+    background-color: transparent;
+}
+.pages-link:hover{
+    color: #fff;
+    background-color: #f5170e;
+}
+.partners{
+    background-color: #F4F5F5;
+    padding-top: 158px;
+    padding-bottom: 45px;
+}
+.partners__title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1A1B1E;
+    margin-bottom: 83px;
+}
+.partners__links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 67px;
+}
+.footer{
+    background-color: black;
+}
+.footer__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 35px;
+}
+.bottom__menu-right{
+    max-width: 191px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: flex-end;
+}
+.footer__menu-chart{
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+    margin-bottom: 7px;
+}
+.footer__menu-tel{
+    display: inline-flex;
+    font-size: 26px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.socials{
     list-style: none;
     display: flex;
+    width: 170px;
+    justify-content: space-between;
+    margin-right: -175px;
+}
+.socials__img{
+    opacity: .5;
+}
+.socials__img:hover{
+    opacity: 1;
+}
+.footer__menu-left{
+    display: inline-flex;
+}
+.footer__menu-left a:hover{
+    color: #f5170e;
 }
